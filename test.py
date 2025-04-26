@@ -3,10 +3,10 @@ from email.mime.text import MIMEText #importing from mime for sending mails
 from email.mime.multipart import MIMEMultipart #importing from mime for sending mails
 
 def email():#function to send an email
-    sender_email ='pythoncrm123@gmail.com'
-    receiver_email ='nanajisaryan@gmail.com'
+    sender_email ='abc@gmail.com'
+    receiver_email ='xyz@gmail.com'
     str2=str(1)
-    password = 'jtrqxdmdevhyqmui'
+    password = 'xyz'
 
     message = MIMEMultipart("alternative")
     message["Subject"] = input('Please enter the subject of the mail: ')
