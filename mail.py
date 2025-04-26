@@ -4,10 +4,10 @@ from email.mime.multipart import MIMEMultipart #importing from mime for sending 
 
 
 def email(list1,list2):#function to send an email
-    sender_email ='pythoncrm123@gmail.com'
+    sender_email ='xyz@gmail.com'
     receiver_email =list1
     str2=str(list2)
-    password = 'jtrqxdmdevhyqmui'
+    password = 'xyz'
 
     message = MIMEMultipart("alternative")
     message["Subject"] = input('Please enter the subject of the mail: ')
